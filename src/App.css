@@ -3,34 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-span{
-  color: lightseagreen;
-  transition: ease-in 400ms;
-}
-
-span:hover{
-  color: darkcyan;
-}
-
-.App {
-  height: 100vh;
-  width: 100vw;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.heading {
-  text-transform: uppercase;
-  letter-spacing: 1rem;
-  font-size: 4rem;
-  font-family: monospace;
-  font-weight: 500;
-}
-
-.footer{
-  position: absolute;
-  bottom: 2rem;
-}
