@@ -1,6 +1,6 @@
 const Education = () => {
     return (
-        <div>
+        <div id="education" style={{ height: '100vh'}}>
             schools and collage
         </div>
     )

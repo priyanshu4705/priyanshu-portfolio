@@ -1,6 +1,6 @@
 const Projects = () => {
     return (
-        <div>
+        <div id="projects" style={{ height: '100vh' }}>
             this page shows the projects list
         </div>
     )

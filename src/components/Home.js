@@ -1,4 +1,4 @@
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 import AboutMe from "./AboutMe"
 import Contact from "./Contact"
 import Education from './Education'
@@ -17,13 +17,15 @@ const Home = () => {
             transition={{ duration: 0.75 }}
         >
             <Navbar />
-            <Intro />
-            <AboutMe />
-            <Skills />
-            <Education />
-            <Projects />
-            <Contact />
-            <Footer />
+            
+                <Intro />
+                <AboutMe />
+                <Skills />
+                <Education />
+                <Projects />
+                <Contact />
+                <Footer />
+            
         </motion.div>
     )
 }
