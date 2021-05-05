@@ -26,12 +26,12 @@ const Wrapper = styled.div`
     overflow: hidden;
 `
 const Button = styled.span`
-margin-left: 2rem;
+    margin-left: 2rem;
     text-decoration: underline dotted;
     color: darkcyan !important;
     i{
         margin-right: 1rem;
-        transform: scaleX(1.25);
+        transform: scaleX(1.5);
     }
 `
 
